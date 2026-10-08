@@ -8,4 +8,4 @@ Disallow: /join.html
 Disallow: /mypage.html
 Disallow: /shop.html
 
-Sitemap: https://rositherapy.shop/sitemap.xml
+Sitemap: https://pointmassage-shop.netlify.app/sitemap.xml
