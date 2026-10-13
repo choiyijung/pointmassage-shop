@@ -354,3 +354,105 @@
   .haru-home footer{padding:28px 18px 98px !important}
   .haru-home .bottom-nav{display:grid !important}
 }
+
+/* SITE04 SIHEUNG ANSAN HUB START */
+.point-focus-hub{
+  margin:0 0 46px;
+  padding:42px;
+  border-radius:8px 30px 8px 30px;
+  background:
+    radial-gradient(circle at 16% 16%,rgba(235,205,215,.18),transparent 34%),
+    linear-gradient(135deg,#473849 0%,#665268 54%,#392e3c 100%);
+  color:#fff;
+  box-shadow:0 24px 58px rgba(55,40,57,.17);
+}
+.point-focus-intro{
+  display:grid;
+  grid-template-columns:minmax(0,1.2fr) minmax(280px,.8fr);
+  gap:40px;
+  align-items:end;
+  margin-bottom:28px;
+}
+.point-focus-intro small{
+  display:block;
+  margin-bottom:12px;
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:.17em;
+  color:#e7cfd9;
+}
+.point-focus-intro h2{
+  margin:0;
+  font-size:clamp(28px,3.2vw,44px);
+  line-height:1.15;
+  letter-spacing:-.045em;
+}
+.point-focus-intro h2 em{
+  color:#f0d8df;
+  font-style:normal;
+}
+.point-focus-intro p{
+  margin:0;
+  color:rgba(255,255,255,.76);
+  font-size:14px;
+  line-height:1.9;
+}
+.point-focus-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:12px;
+}
+.point-focus-card{
+  min-height:174px;
+  padding:24px;
+  display:flex;
+  flex-direction:column;
+  text-decoration:none;
+  color:#403442;
+  background:#f2eaee;
+  border-radius:22px 7px 22px 7px;
+  transition:transform .2s ease,box-shadow .2s ease,background .2s ease;
+}
+.point-focus-card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 14px 30px rgba(0,0,0,.14);
+  background:#fff;
+}
+.point-focus-card small{
+  color:#846c7c;
+  font-size:10px;
+  font-weight:800;
+  letter-spacing:.15em;
+}
+.point-focus-card strong{
+  display:block;
+  margin:17px 0 8px;
+  font-size:22px;
+  line-height:1.25;
+  letter-spacing:-.035em;
+}
+.point-focus-card span{
+  display:block;
+  color:#726770;
+  font-size:13px;
+  line-height:1.7;
+}
+.point-focus-card b{
+  margin-top:auto;
+  padding-top:18px;
+  color:#654b61;
+  font-size:12px;
+}
+.point-main{background:#ead8e1}
+.point-ansan{background:#e8e3ed}
+.point-wide{background:#eee0e6}
+.point-sub{background:#ece8ee}
+@media(max-width:700px){
+  .point-focus-hub{padding:26px 18px;margin-bottom:30px}
+  .point-focus-intro{grid-template-columns:1fr;gap:15px}
+  .point-focus-intro h2{font-size:29px}
+  .point-focus-grid{grid-template-columns:1fr;gap:8px}
+  .point-focus-card{min-height:150px;padding:19px}
+}
+/* SITE04 SIHEUNG ANSAN HUB END */
+
